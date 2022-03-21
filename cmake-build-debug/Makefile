@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Test
+
+# Build rule for target.
+Test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Test
+.PHONY : Test
+
+# fast build rule for target.
+Test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/build
+.PHONY : Test/fast
+
+#=============================================================================
 # Target rules for targets named Complex
 
 # Build rule for target.
@@ -141,6 +154,30 @@ main: cmake_check_build_system
 main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
+
+Task1/Test.o: Task1/Test.cpp.o
+.PHONY : Task1/Test.o
+
+# target to build an object file
+Task1/Test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/Task1/Test.cpp.o
+.PHONY : Task1/Test.cpp.o
+
+Task1/Test.i: Task1/Test.cpp.i
+.PHONY : Task1/Test.i
+
+# target to preprocess a source file
+Task1/Test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/Task1/Test.cpp.i
+.PHONY : Task1/Test.cpp.i
+
+Task1/Test.s: Task1/Test.cpp.s
+.PHONY : Task1/Test.s
+
+# target to generate assembly for a file
+Task1/Test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/Task1/Test.cpp.s
+.PHONY : Task1/Test.cpp.s
 
 Task2/Complex.o: Task2/Complex.cpp.o
 .PHONY : Task2/Complex.o
@@ -199,7 +236,11 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Complex"
+	@echo "... Test"
 	@echo "... main"
+	@echo "... Task1/Test.o"
+	@echo "... Task1/Test.i"
+	@echo "... Task1/Test.s"
 	@echo "... Task2/Complex.o"
 	@echo "... Task2/Complex.i"
 	@echo "... Task2/Complex.s"
