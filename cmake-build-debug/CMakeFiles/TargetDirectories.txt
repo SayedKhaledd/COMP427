@@ -1,0 +1,4 @@
+/cygdrive/g/Github/COMP427/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/g/Github/COMP427/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/g/Github/COMP427/cmake-build-debug/CMakeFiles/Complex.dir
+/cygdrive/g/Github/COMP427/cmake-build-debug/CMakeFiles/main.dir

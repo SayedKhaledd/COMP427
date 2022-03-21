@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/g/Github/COMP427/Task2/Complex.cpp
+Complex.h
+/cygdrive/g/Github/COMP427/Task2/Complex.h
+iostream
+-
+
+/cygdrive/g/Github/COMP427/Task2/Complex.h
+
