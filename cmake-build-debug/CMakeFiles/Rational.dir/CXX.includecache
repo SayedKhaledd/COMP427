@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/g/Github/COMP427/Section4/Rational.cpp
+iostream
+-
+Rational.h
+/cygdrive/g/Github/COMP427/Section4/Rational.h
+algorithm
+-
+
+/cygdrive/g/Github/COMP427/Section4/Rational.h
+

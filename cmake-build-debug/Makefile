@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Rational
+
+# Build rule for target.
+Rational: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Rational
+.PHONY : Rational
+
+# fast build rule for target.
+Rational/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rational.dir/build.make CMakeFiles/Rational.dir/build
+.PHONY : Rational/fast
+
+#=============================================================================
 # Target rules for targets named Test
 
 # Build rule for target.
@@ -154,6 +167,54 @@ main: cmake_check_build_system
 main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
+
+Section4/Rational.o: Section4/Rational.cpp.o
+.PHONY : Section4/Rational.o
+
+# target to build an object file
+Section4/Rational.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rational.dir/build.make CMakeFiles/Rational.dir/Section4/Rational.cpp.o
+.PHONY : Section4/Rational.cpp.o
+
+Section4/Rational.i: Section4/Rational.cpp.i
+.PHONY : Section4/Rational.i
+
+# target to preprocess a source file
+Section4/Rational.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rational.dir/build.make CMakeFiles/Rational.dir/Section4/Rational.cpp.i
+.PHONY : Section4/Rational.cpp.i
+
+Section4/Rational.s: Section4/Rational.cpp.s
+.PHONY : Section4/Rational.s
+
+# target to generate assembly for a file
+Section4/Rational.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rational.dir/build.make CMakeFiles/Rational.dir/Section4/Rational.cpp.s
+.PHONY : Section4/Rational.cpp.s
+
+Section4/main.o: Section4/main.cpp.o
+.PHONY : Section4/main.o
+
+# target to build an object file
+Section4/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rational.dir/build.make CMakeFiles/Rational.dir/Section4/main.cpp.o
+.PHONY : Section4/main.cpp.o
+
+Section4/main.i: Section4/main.cpp.i
+.PHONY : Section4/main.i
+
+# target to preprocess a source file
+Section4/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rational.dir/build.make CMakeFiles/Rational.dir/Section4/main.cpp.i
+.PHONY : Section4/main.cpp.i
+
+Section4/main.s: Section4/main.cpp.s
+.PHONY : Section4/main.s
+
+# target to generate assembly for a file
+Section4/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rational.dir/build.make CMakeFiles/Rational.dir/Section4/main.cpp.s
+.PHONY : Section4/main.cpp.s
 
 Task1/Test.o: Task1/Test.cpp.o
 .PHONY : Task1/Test.o
@@ -236,8 +297,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Complex"
+	@echo "... Rational"
 	@echo "... Test"
 	@echo "... main"
+	@echo "... Section4/Rational.o"
+	@echo "... Section4/Rational.i"
+	@echo "... Section4/Rational.s"
+	@echo "... Section4/main.o"
+	@echo "... Section4/main.i"
+	@echo "... Section4/main.s"
 	@echo "... Task1/Test.o"
 	@echo "... Task1/Test.i"
 	@echo "... Task1/Test.s"

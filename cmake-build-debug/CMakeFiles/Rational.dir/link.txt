@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/Rational.dir/Section4/Rational.cpp.o CMakeFiles/Rational.dir/Section4/main.cpp.o -o Rational.exe -Wl,--out-implib,libRational.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

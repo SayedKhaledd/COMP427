@@ -5,6 +5,11 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(main Task2/main.cpp)
 add_executable(Complex Task2/Complex.cpp)
+
 add_executable(Test Task1/Test.cpp)
 
+
+
+add_executable(Rational Section4/Rational.cpp Section4/Rational.h Section4/main.cpp)
+#include_directories(Rational Section4/Rational.h)
 

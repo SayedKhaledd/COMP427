@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/main_sec_4.dir/Section4/main.cpp.o -o main_sec_4.exe -Wl,--out-implib,libmain_sec_4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

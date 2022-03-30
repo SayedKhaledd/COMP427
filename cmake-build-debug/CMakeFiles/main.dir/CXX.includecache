@@ -6,19 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/g/Github/COMP427/Task2/Complex.cpp
-Complex.h
-/cygdrive/g/Github/COMP427/Task2/Complex.h
-iostream
--
-
-/cygdrive/g/Github/COMP427/Task2/Complex.h
-
-/cygdrive/g/Github/COMP427/Task2/main.cpp
-iostream
--
-Complex.cpp
-/cygdrive/g/Github/COMP427/Task2/Complex.cpp
-cmath
--
-
