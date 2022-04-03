@@ -32,6 +32,7 @@ void Rational::print() const {
 
 void Rational::simplify(double nominator, double dominator) {
     int my_gcd = gcd(nominator, dominator);
+
     if (my_gcd == 0) {
         Rational::nominator = 0;
         Rational::dominator = dominator;
@@ -46,7 +47,9 @@ void Rational::simplify() {
 }
 
 
-int Rational::gcd(int a, int b) {
+double Rational::gcd(double a, double b) {
+    if (a == 1 || b == 1)
+        return 1;
     if (a < 0)
         a *= -1;
     if (b < 0)
@@ -116,10 +119,18 @@ void Rational::setValue(double value) {
     double intVal = floor(value);
 
     double fVal = value - intVal;
-    const long long perceision = 1000000000;
-    long gcdVal = gcd(round(fVal * perceision), perceision);
-    long long nominator = round(fVal * perceision) / gcdVal;
-    long long dominator = perceision / gcdVal;
+    long long length = 0;
+    string s = to_string(fVal);
+    fVal = 0;
+    for (int i = 2; i < s.length(); i++) {
+        int x = (s[i] - 48) * pow(10, s.length() - 1 - i);
+        fVal += x;
+        length++;
+    }
+    long long nominator = intVal * pow(10, length) + fVal;
+    long long dominator = pow(10, length);
+
     setDominator(dominator);
-    setNominator((intVal * dominator) + nominator);
+    setNominator(nominator);
+    simplify();
 }

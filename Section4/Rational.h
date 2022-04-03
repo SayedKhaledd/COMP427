@@ -12,7 +12,7 @@ private:
 
     void simplify(double nominator, double dominator);
 
-    int gcd(int a, int b);
+    double gcd(double a, double b);
 
 public:
     Rational();

@@ -18,7 +18,12 @@ Term::Term(Number coefficient, Number exponent) {
 }
 
 void Term::print() {
-    cout << coefficient.getValue() << "X^" << exponent.getValue()<<endl;
+    if (coefficient.getValue() == 0) {
+        cout << 0 << endl;
+    } else if (exponent == 0) {
+        cout << 1 << endl;
+    } else
+        cout << coefficient.getValue() << "X^" << exponent.getValue() << endl;
 }
 
 const Number &Term::getCoefficient() const {

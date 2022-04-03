@@ -6,6 +6,7 @@
 #include <iostream>
 #include<string>
 #include <cmath>
+#include <cstring>
 
 using namespace std;
 
@@ -35,7 +36,10 @@ void Decimal::setDecimal(int decimal) {
 }
 
 void Decimal::print() {
-    cout << Decimal::integer << "." << Decimal::decimal << endl;
+    if (decimal < 0) {
+        cout << "-" << integer << "." << decimal * -1 << endl;
+    } else
+        cout << Decimal::integer << "." << Decimal::decimal << endl;
 }
 
 bool Decimal::operator==(const Decimal &rhs) const {
@@ -76,22 +80,18 @@ double Decimal::getValue() {
 }
 
 void Decimal::setValue(double d) {
+    string s = to_string(d);
+    int dotIndex = s.find('.');
+    string s1 = s.substr(0, dotIndex);
+    string s2 = s.substr(dotIndex + 1, s.length() - 1);
+    int myInteger = stoi(s1), myDouble = stod(s2);
 
-    double integer;
-    double myDouble = modf(d, &integer);
-    int integer_value = integer;
-    double temp = myDouble;
-    int counter = 0;
-    while ((int) temp != temp) {
-        temp *= 10;
-        counter++;
-
-
-
+    if (s[0] == '-') {
+        myDouble *= -1;
     }
+    setInteger(myInteger);
+    setDecimal(myDouble);
 
-    setInteger(integer_value);
-    setDecimal(myDouble * pow(10, counter));
 }
 
 

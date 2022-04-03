@@ -128,9 +128,18 @@ Term operator*(Term t1, Term t2) {
     return t;
 
 }
+Term operator/(Term t1, Term t2) {
+    Term t;
+    t.setCoefficient(t1.getCoefficient() / t2.getCoefficient());
+    t.setExponent(t1.getExponent() - t2.getExponent());
+    return t;
 
+}
 int main() {
-
+    Decimal ll;
+    ll.setValue(1 / 3.0);
+    cout << ll.getValue() << endl;
+    ll.print();
     cout << 0 / 5 << endl;
     Rational r1(0, 5);
     Rational r2(2, 5);
@@ -182,35 +191,51 @@ int main() {
     Decimal d1(1, 8), d2(1, 2);
     d1.print();
     d2.print();
-
-    cout << d1.getValue() << endl;
-
     Decimal d;
-//    d = d1 - d2;
-    double x = d1.getValue();
-    double x2 = d2.getValue();
-    double x3 = x - x2;
-    d.setValue(1.2);
+    d = d1 + d2;
+    d.print();
+    d.setValue(-0.6);
+    d.print();
+    d = d1 * d2;
+    d.print();
+    d = d1 / d2;
     d.print();
 
-    //
-//    Rational r4;
-//    r4.setValue(2.5);
-//    r4.print();
-//
-////    Number c(1.2), c2(1.8);
-////    c.printDecimal();
-////    c.printRational();
-////    c.printInteger();
-//
-////    Number c1(2), c3(3);
-////    cout<<"hello1"<<endl;
-////    Term t1(c1, c3);
-////    cout<<"hello2"<<endl;
-////    t1.print();
-////    cout<<"hello3"<<endl;
-//
-//    Decimal d3(1, 5);
-//    d3.setValue(1.72);
-//    d3.print();
+    Rational r4;
+    r4.setValue(2.5);
+    r4.print();
+
+    Number c1(1.2), c2(1.8);
+    c1.printDecimal();
+    c1.printRational();
+    c1.printInteger();
+    Number c;
+    c = c1 + c2;
+    c.printDecimal();
+    c.printRational();
+    c = c1 - c2;
+    c.printDecimal();
+    c.printRational();
+    c = c1 * c2;
+
+    c.printDecimal();
+    c.printRational();
+
+
+    c = c1 / c2;
+    c.printDecimal();
+    c.printRational();
+
+    Number c4(2), c3(3);
+    Term t1(c4, c3);
+    t1.print();
+    Term t;
+    t = t1 + t1;
+    t.print();
+    t = t1 - t1;
+    t.print();
+    t = t1 * t1;
+    t.print();
+    t = t1 / t1;
+    t.print();
 }
