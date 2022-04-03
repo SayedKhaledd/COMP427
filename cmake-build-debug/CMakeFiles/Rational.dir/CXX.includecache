@@ -6,13 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/g/Github/COMP427/Section4/Rational.cpp
-iostream
--
+/cygdrive/g/Github/COMP427/Section4/Decimal.h
+
+/cygdrive/g/Github/COMP427/Section4/Number.h
+Decimal.h
+/cygdrive/g/Github/COMP427/Section4/Decimal.h
 Rational.h
 /cygdrive/g/Github/COMP427/Section4/Rational.h
-algorithm
--
 
 /cygdrive/g/Github/COMP427/Section4/Rational.h
+
+/cygdrive/g/Github/COMP427/Section4/Term.h
+Number.h
+/cygdrive/g/Github/COMP427/Section4/Number.h
+
+/cygdrive/g/Github/COMP427/Section4/main.cpp
+iostream
+-
+cmath
+-
+Term.h
+/cygdrive/g/Github/COMP427/Section4/Term.h
+Decimal.h
+/cygdrive/g/Github/COMP427/Section4/Decimal.h
+Rational.h
+/cygdrive/g/Github/COMP427/Section4/Rational.h
+Number.h
+/cygdrive/g/Github/COMP427/Section4/Number.h
 

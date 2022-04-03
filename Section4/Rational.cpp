@@ -5,6 +5,7 @@
 #include <iostream>
 #include "Rational.h"
 #include <algorithm>
+#include <cmath>
 
 using namespace std;
 
@@ -75,4 +76,50 @@ void Rational::setDominator(double dominator) {
     if (dominator <= 0)
         dominator = 1;
     Rational::dominator = dominator;
+}
+
+bool Rational::operator==(const Rational &rhs) const {
+    return nominator == rhs.nominator &&
+           dominator == rhs.dominator;
+}
+
+bool Rational::operator!=(const Rational &rhs) const {
+    return !(rhs == *this);
+}
+
+bool Rational::operator<(const Rational &rhs) const {
+    if (nominator < rhs.nominator)
+        return true;
+    if (rhs.nominator < nominator)
+        return false;
+    return dominator < rhs.dominator;
+}
+
+bool Rational::operator>(const Rational &rhs) const {
+    return rhs < *this;
+}
+
+bool Rational::operator<=(const Rational &rhs) const {
+    return !(rhs < *this);
+}
+
+bool Rational::operator>=(const Rational &rhs) const {
+    return !(*this < rhs);
+}
+
+double Rational::getValue() {
+    return (Rational::nominator / (double) Rational::dominator);
+}
+
+void Rational::setValue(double value) {
+
+    double intVal = floor(value);
+
+    double fVal = value - intVal;
+    const long long perceision = 1000000000;
+    long gcdVal = gcd(round(fVal * perceision), perceision);
+    long long nominator = round(fVal * perceision) / gcdVal;
+    long long dominator = perceision / gcdVal;
+    setDominator(dominator);
+    setNominator((intVal * dominator) + nominator);
 }

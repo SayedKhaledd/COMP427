@@ -206,10 +206,40 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/cygdrive/g/Github/COMP427/Section4/Decimal.cpp">
+			<Option target="Rational"/>
+		</Unit>
+		<Unit filename="/cygdrive/g/Github/COMP427/Section4/Decimal.h">
+			<Option target="Rational"/>
+		</Unit>
+		<Unit filename="/cygdrive/g/Github/COMP427/Section4/Integer.cpp">
+			<Option target="Rational"/>
+		</Unit>
+		<Unit filename="/cygdrive/g/Github/COMP427/Section4/Integer.h">
+			<Option target="Rational"/>
+		</Unit>
+		<Unit filename="/cygdrive/g/Github/COMP427/Section4/Number.cpp">
+			<Option target="Rational"/>
+		</Unit>
+		<Unit filename="/cygdrive/g/Github/COMP427/Section4/Number.h">
+			<Option target="Rational"/>
+		</Unit>
+		<Unit filename="/cygdrive/g/Github/COMP427/Section4/Polynomial.cpp">
+			<Option target="Rational"/>
+		</Unit>
+		<Unit filename="/cygdrive/g/Github/COMP427/Section4/Polynomial.h">
+			<Option target="Rational"/>
+		</Unit>
 		<Unit filename="/cygdrive/g/Github/COMP427/Section4/Rational.cpp">
 			<Option target="Rational"/>
 		</Unit>
 		<Unit filename="/cygdrive/g/Github/COMP427/Section4/Rational.h">
+			<Option target="Rational"/>
+		</Unit>
+		<Unit filename="/cygdrive/g/Github/COMP427/Section4/Term.cpp">
+			<Option target="Rational"/>
+		</Unit>
+		<Unit filename="/cygdrive/g/Github/COMP427/Section4/Term.h">
 			<Option target="Rational"/>
 		</Unit>
 		<Unit filename="/cygdrive/g/Github/COMP427/Section4/main.cpp">

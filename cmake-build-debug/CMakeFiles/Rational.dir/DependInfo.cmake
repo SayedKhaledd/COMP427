@@ -8,7 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/cygdrive/g/Github/COMP427/Section4/Decimal.cpp" "/cygdrive/g/Github/COMP427/cmake-build-debug/CMakeFiles/Rational.dir/Section4/Decimal.cpp.o"
+  "/cygdrive/g/Github/COMP427/Section4/Integer.cpp" "/cygdrive/g/Github/COMP427/cmake-build-debug/CMakeFiles/Rational.dir/Section4/Integer.cpp.o"
+  "/cygdrive/g/Github/COMP427/Section4/Number.cpp" "/cygdrive/g/Github/COMP427/cmake-build-debug/CMakeFiles/Rational.dir/Section4/Number.cpp.o"
+  "/cygdrive/g/Github/COMP427/Section4/Polynomial.cpp" "/cygdrive/g/Github/COMP427/cmake-build-debug/CMakeFiles/Rational.dir/Section4/Polynomial.cpp.o"
   "/cygdrive/g/Github/COMP427/Section4/Rational.cpp" "/cygdrive/g/Github/COMP427/cmake-build-debug/CMakeFiles/Rational.dir/Section4/Rational.cpp.o"
+  "/cygdrive/g/Github/COMP427/Section4/Term.cpp" "/cygdrive/g/Github/COMP427/cmake-build-debug/CMakeFiles/Rational.dir/Section4/Term.cpp.o"
   "/cygdrive/g/Github/COMP427/Section4/main.cpp" "/cygdrive/g/Github/COMP427/cmake-build-debug/CMakeFiles/Rational.dir/Section4/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

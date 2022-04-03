@@ -9,8 +9,25 @@
 class Rational {
 private:
     double nominator, dominator;
+
+    void simplify(double nominator, double dominator);
+
+    int gcd(int a, int b);
+
 public:
     Rational();
+
+    bool operator==(const Rational &rhs) const;
+
+    bool operator!=(const Rational &rhs) const;
+
+    bool operator<(const Rational &rhs) const;
+
+    bool operator>(const Rational &rhs) const;
+
+    bool operator<=(const Rational &rhs) const;
+
+    bool operator>=(const Rational &rhs) const;
 
     Rational(double nominator, double dominator);
 
@@ -18,13 +35,6 @@ public:
 
     void print() const;
 
-
-private:
-    void simplify(double nominator, double dominator);
-
-    int gcd(int a, int b);
-
-public:
     double getNominator() const;
 
     void setNominator(double nominator);
@@ -32,6 +42,10 @@ public:
     double getDominator() const;
 
     void setDominator(double dominator);
+
+    double getValue();
+
+    void setValue(double value);
 
 };
 

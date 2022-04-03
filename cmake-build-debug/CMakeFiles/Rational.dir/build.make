@@ -79,9 +79,22 @@ CMakeFiles/Rational.dir/Section4/Rational.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Rational.dir/Section4/Rational.cpp.s"
 	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/g/Github/COMP427/Section4/Rational.cpp -o CMakeFiles/Rational.dir/Section4/Rational.cpp.s
 
+CMakeFiles/Rational.dir/Section4/Term.cpp.o: CMakeFiles/Rational.dir/flags.make
+CMakeFiles/Rational.dir/Section4/Term.cpp.o: ../Section4/Term.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/g/Github/COMP427/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Rational.dir/Section4/Term.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Rational.dir/Section4/Term.cpp.o -c /cygdrive/g/Github/COMP427/Section4/Term.cpp
+
+CMakeFiles/Rational.dir/Section4/Term.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Rational.dir/Section4/Term.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/g/Github/COMP427/Section4/Term.cpp > CMakeFiles/Rational.dir/Section4/Term.cpp.i
+
+CMakeFiles/Rational.dir/Section4/Term.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Rational.dir/Section4/Term.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/g/Github/COMP427/Section4/Term.cpp -o CMakeFiles/Rational.dir/Section4/Term.cpp.s
+
 CMakeFiles/Rational.dir/Section4/main.cpp.o: CMakeFiles/Rational.dir/flags.make
 CMakeFiles/Rational.dir/Section4/main.cpp.o: ../Section4/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/g/Github/COMP427/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Rational.dir/Section4/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/g/Github/COMP427/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Rational.dir/Section4/main.cpp.o"
 	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Rational.dir/Section4/main.cpp.o -c /cygdrive/g/Github/COMP427/Section4/main.cpp
 
 CMakeFiles/Rational.dir/Section4/main.cpp.i: cmake_force
@@ -92,19 +105,81 @@ CMakeFiles/Rational.dir/Section4/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Rational.dir/Section4/main.cpp.s"
 	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/g/Github/COMP427/Section4/main.cpp -o CMakeFiles/Rational.dir/Section4/main.cpp.s
 
+CMakeFiles/Rational.dir/Section4/Polynomial.cpp.o: CMakeFiles/Rational.dir/flags.make
+CMakeFiles/Rational.dir/Section4/Polynomial.cpp.o: ../Section4/Polynomial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/g/Github/COMP427/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Rational.dir/Section4/Polynomial.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Rational.dir/Section4/Polynomial.cpp.o -c /cygdrive/g/Github/COMP427/Section4/Polynomial.cpp
+
+CMakeFiles/Rational.dir/Section4/Polynomial.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Rational.dir/Section4/Polynomial.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/g/Github/COMP427/Section4/Polynomial.cpp > CMakeFiles/Rational.dir/Section4/Polynomial.cpp.i
+
+CMakeFiles/Rational.dir/Section4/Polynomial.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Rational.dir/Section4/Polynomial.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/g/Github/COMP427/Section4/Polynomial.cpp -o CMakeFiles/Rational.dir/Section4/Polynomial.cpp.s
+
+CMakeFiles/Rational.dir/Section4/Number.cpp.o: CMakeFiles/Rational.dir/flags.make
+CMakeFiles/Rational.dir/Section4/Number.cpp.o: ../Section4/Number.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/g/Github/COMP427/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Rational.dir/Section4/Number.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Rational.dir/Section4/Number.cpp.o -c /cygdrive/g/Github/COMP427/Section4/Number.cpp
+
+CMakeFiles/Rational.dir/Section4/Number.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Rational.dir/Section4/Number.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/g/Github/COMP427/Section4/Number.cpp > CMakeFiles/Rational.dir/Section4/Number.cpp.i
+
+CMakeFiles/Rational.dir/Section4/Number.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Rational.dir/Section4/Number.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/g/Github/COMP427/Section4/Number.cpp -o CMakeFiles/Rational.dir/Section4/Number.cpp.s
+
+CMakeFiles/Rational.dir/Section4/Decimal.cpp.o: CMakeFiles/Rational.dir/flags.make
+CMakeFiles/Rational.dir/Section4/Decimal.cpp.o: ../Section4/Decimal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/g/Github/COMP427/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Rational.dir/Section4/Decimal.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Rational.dir/Section4/Decimal.cpp.o -c /cygdrive/g/Github/COMP427/Section4/Decimal.cpp
+
+CMakeFiles/Rational.dir/Section4/Decimal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Rational.dir/Section4/Decimal.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/g/Github/COMP427/Section4/Decimal.cpp > CMakeFiles/Rational.dir/Section4/Decimal.cpp.i
+
+CMakeFiles/Rational.dir/Section4/Decimal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Rational.dir/Section4/Decimal.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/g/Github/COMP427/Section4/Decimal.cpp -o CMakeFiles/Rational.dir/Section4/Decimal.cpp.s
+
+CMakeFiles/Rational.dir/Section4/Integer.cpp.o: CMakeFiles/Rational.dir/flags.make
+CMakeFiles/Rational.dir/Section4/Integer.cpp.o: ../Section4/Integer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/g/Github/COMP427/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Rational.dir/Section4/Integer.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Rational.dir/Section4/Integer.cpp.o -c /cygdrive/g/Github/COMP427/Section4/Integer.cpp
+
+CMakeFiles/Rational.dir/Section4/Integer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Rational.dir/Section4/Integer.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/g/Github/COMP427/Section4/Integer.cpp > CMakeFiles/Rational.dir/Section4/Integer.cpp.i
+
+CMakeFiles/Rational.dir/Section4/Integer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Rational.dir/Section4/Integer.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/g/Github/COMP427/Section4/Integer.cpp -o CMakeFiles/Rational.dir/Section4/Integer.cpp.s
+
 # Object files for target Rational
 Rational_OBJECTS = \
 "CMakeFiles/Rational.dir/Section4/Rational.cpp.o" \
-"CMakeFiles/Rational.dir/Section4/main.cpp.o"
+"CMakeFiles/Rational.dir/Section4/Term.cpp.o" \
+"CMakeFiles/Rational.dir/Section4/main.cpp.o" \
+"CMakeFiles/Rational.dir/Section4/Polynomial.cpp.o" \
+"CMakeFiles/Rational.dir/Section4/Number.cpp.o" \
+"CMakeFiles/Rational.dir/Section4/Decimal.cpp.o" \
+"CMakeFiles/Rational.dir/Section4/Integer.cpp.o"
 
 # External object files for target Rational
 Rational_EXTERNAL_OBJECTS =
 
 Rational.exe: CMakeFiles/Rational.dir/Section4/Rational.cpp.o
+Rational.exe: CMakeFiles/Rational.dir/Section4/Term.cpp.o
 Rational.exe: CMakeFiles/Rational.dir/Section4/main.cpp.o
+Rational.exe: CMakeFiles/Rational.dir/Section4/Polynomial.cpp.o
+Rational.exe: CMakeFiles/Rational.dir/Section4/Number.cpp.o
+Rational.exe: CMakeFiles/Rational.dir/Section4/Decimal.cpp.o
+Rational.exe: CMakeFiles/Rational.dir/Section4/Integer.cpp.o
 Rational.exe: CMakeFiles/Rational.dir/build.make
 Rational.exe: CMakeFiles/Rational.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/g/Github/COMP427/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Rational.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/g/Github/COMP427/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Rational.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Rational.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

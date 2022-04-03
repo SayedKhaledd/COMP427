@@ -168,6 +168,102 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+Section4/Decimal.o: Section4/Decimal.cpp.o
+.PHONY : Section4/Decimal.o
+
+# target to build an object file
+Section4/Decimal.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rational.dir/build.make CMakeFiles/Rational.dir/Section4/Decimal.cpp.o
+.PHONY : Section4/Decimal.cpp.o
+
+Section4/Decimal.i: Section4/Decimal.cpp.i
+.PHONY : Section4/Decimal.i
+
+# target to preprocess a source file
+Section4/Decimal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rational.dir/build.make CMakeFiles/Rational.dir/Section4/Decimal.cpp.i
+.PHONY : Section4/Decimal.cpp.i
+
+Section4/Decimal.s: Section4/Decimal.cpp.s
+.PHONY : Section4/Decimal.s
+
+# target to generate assembly for a file
+Section4/Decimal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rational.dir/build.make CMakeFiles/Rational.dir/Section4/Decimal.cpp.s
+.PHONY : Section4/Decimal.cpp.s
+
+Section4/Integer.o: Section4/Integer.cpp.o
+.PHONY : Section4/Integer.o
+
+# target to build an object file
+Section4/Integer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rational.dir/build.make CMakeFiles/Rational.dir/Section4/Integer.cpp.o
+.PHONY : Section4/Integer.cpp.o
+
+Section4/Integer.i: Section4/Integer.cpp.i
+.PHONY : Section4/Integer.i
+
+# target to preprocess a source file
+Section4/Integer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rational.dir/build.make CMakeFiles/Rational.dir/Section4/Integer.cpp.i
+.PHONY : Section4/Integer.cpp.i
+
+Section4/Integer.s: Section4/Integer.cpp.s
+.PHONY : Section4/Integer.s
+
+# target to generate assembly for a file
+Section4/Integer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rational.dir/build.make CMakeFiles/Rational.dir/Section4/Integer.cpp.s
+.PHONY : Section4/Integer.cpp.s
+
+Section4/Number.o: Section4/Number.cpp.o
+.PHONY : Section4/Number.o
+
+# target to build an object file
+Section4/Number.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rational.dir/build.make CMakeFiles/Rational.dir/Section4/Number.cpp.o
+.PHONY : Section4/Number.cpp.o
+
+Section4/Number.i: Section4/Number.cpp.i
+.PHONY : Section4/Number.i
+
+# target to preprocess a source file
+Section4/Number.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rational.dir/build.make CMakeFiles/Rational.dir/Section4/Number.cpp.i
+.PHONY : Section4/Number.cpp.i
+
+Section4/Number.s: Section4/Number.cpp.s
+.PHONY : Section4/Number.s
+
+# target to generate assembly for a file
+Section4/Number.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rational.dir/build.make CMakeFiles/Rational.dir/Section4/Number.cpp.s
+.PHONY : Section4/Number.cpp.s
+
+Section4/Polynomial.o: Section4/Polynomial.cpp.o
+.PHONY : Section4/Polynomial.o
+
+# target to build an object file
+Section4/Polynomial.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rational.dir/build.make CMakeFiles/Rational.dir/Section4/Polynomial.cpp.o
+.PHONY : Section4/Polynomial.cpp.o
+
+Section4/Polynomial.i: Section4/Polynomial.cpp.i
+.PHONY : Section4/Polynomial.i
+
+# target to preprocess a source file
+Section4/Polynomial.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rational.dir/build.make CMakeFiles/Rational.dir/Section4/Polynomial.cpp.i
+.PHONY : Section4/Polynomial.cpp.i
+
+Section4/Polynomial.s: Section4/Polynomial.cpp.s
+.PHONY : Section4/Polynomial.s
+
+# target to generate assembly for a file
+Section4/Polynomial.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rational.dir/build.make CMakeFiles/Rational.dir/Section4/Polynomial.cpp.s
+.PHONY : Section4/Polynomial.cpp.s
+
 Section4/Rational.o: Section4/Rational.cpp.o
 .PHONY : Section4/Rational.o
 
@@ -191,6 +287,30 @@ Section4/Rational.s: Section4/Rational.cpp.s
 Section4/Rational.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rational.dir/build.make CMakeFiles/Rational.dir/Section4/Rational.cpp.s
 .PHONY : Section4/Rational.cpp.s
+
+Section4/Term.o: Section4/Term.cpp.o
+.PHONY : Section4/Term.o
+
+# target to build an object file
+Section4/Term.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rational.dir/build.make CMakeFiles/Rational.dir/Section4/Term.cpp.o
+.PHONY : Section4/Term.cpp.o
+
+Section4/Term.i: Section4/Term.cpp.i
+.PHONY : Section4/Term.i
+
+# target to preprocess a source file
+Section4/Term.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rational.dir/build.make CMakeFiles/Rational.dir/Section4/Term.cpp.i
+.PHONY : Section4/Term.cpp.i
+
+Section4/Term.s: Section4/Term.cpp.s
+.PHONY : Section4/Term.s
+
+# target to generate assembly for a file
+Section4/Term.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rational.dir/build.make CMakeFiles/Rational.dir/Section4/Term.cpp.s
+.PHONY : Section4/Term.cpp.s
 
 Section4/main.o: Section4/main.cpp.o
 .PHONY : Section4/main.o
@@ -300,9 +420,24 @@ help:
 	@echo "... Rational"
 	@echo "... Test"
 	@echo "... main"
+	@echo "... Section4/Decimal.o"
+	@echo "... Section4/Decimal.i"
+	@echo "... Section4/Decimal.s"
+	@echo "... Section4/Integer.o"
+	@echo "... Section4/Integer.i"
+	@echo "... Section4/Integer.s"
+	@echo "... Section4/Number.o"
+	@echo "... Section4/Number.i"
+	@echo "... Section4/Number.s"
+	@echo "... Section4/Polynomial.o"
+	@echo "... Section4/Polynomial.i"
+	@echo "... Section4/Polynomial.s"
 	@echo "... Section4/Rational.o"
 	@echo "... Section4/Rational.i"
 	@echo "... Section4/Rational.s"
+	@echo "... Section4/Term.o"
+	@echo "... Section4/Term.i"
+	@echo "... Section4/Term.s"
 	@echo "... Section4/main.o"
 	@echo "... Section4/main.i"
 	@echo "... Section4/main.s"
