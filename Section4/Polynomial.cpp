@@ -16,11 +16,23 @@ Polynomial::~Polynomial() {
 void Polynomial::print() {
     for (Term i: Polynomial::poly) {
         i.print();
-        cout << " " << endl;
+        cout << " ";
     }
+    cout << endl;
 }
 
-bool Polynomial::add(Term t) {
+void Polynomial::add(Term t) {
 
-    return false;
+    poly.push_back(t);
 }
+
+
+const vector<Term> &Polynomial::getPoly() const {
+    return poly;
+}
+
+void Polynomial::setPoly(const vector<Term> &poly) {
+    Polynomial::poly = poly;
+}
+
+

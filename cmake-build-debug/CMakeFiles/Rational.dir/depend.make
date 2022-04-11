@@ -4,9 +4,6 @@
 CMakeFiles/Rational.dir/Section4/Decimal.cpp.o: \
  ../Section4/Decimal.cpp \
  ../Section4/Decimal.h
-CMakeFiles/Rational.dir/Section4/Integer.cpp.o: \
- ../Section4/Integer.cpp \
- ../Section4/Integer.h
 CMakeFiles/Rational.dir/Section4/Number.cpp.o: \
  ../Section4/Decimal.h \
  ../Section4/Number.cpp \
@@ -31,6 +28,7 @@ CMakeFiles/Rational.dir/Section4/Term.cpp.o: \
 CMakeFiles/Rational.dir/Section4/main.cpp.o: \
  ../Section4/Decimal.h \
  ../Section4/Number.h \
+ ../Section4/Polynomial.h \
  ../Section4/Rational.h \
  ../Section4/Term.h \
  ../Section4/main.cpp

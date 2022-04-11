@@ -5,8 +5,6 @@ CMakeFiles/Rational.dir/Section4/Decimal.cpp.o
  /cygdrive/g/Github/COMP427/Section4/Decimal.cpp
  /cygdrive/g/Github/COMP427/Section4/Decimal.h
 CMakeFiles/Rational.dir/Section4/Integer.cpp.o
- /cygdrive/g/Github/COMP427/Section4/Integer.cpp
- /cygdrive/g/Github/COMP427/Section4/Integer.h
 CMakeFiles/Rational.dir/Section4/Number.cpp.o
  /cygdrive/g/Github/COMP427/Section4/Decimal.h
  /cygdrive/g/Github/COMP427/Section4/Number.cpp
@@ -31,6 +29,7 @@ CMakeFiles/Rational.dir/Section4/Term.cpp.o
 CMakeFiles/Rational.dir/Section4/main.cpp.o
  /cygdrive/g/Github/COMP427/Section4/Decimal.h
  /cygdrive/g/Github/COMP427/Section4/Number.h
+ /cygdrive/g/Github/COMP427/Section4/Polynomial.h
  /cygdrive/g/Github/COMP427/Section4/Rational.h
  /cygdrive/g/Github/COMP427/Section4/Term.h
  /cygdrive/g/Github/COMP427/Section4/main.cpp

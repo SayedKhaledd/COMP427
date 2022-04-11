@@ -7,7 +7,9 @@
 #include "Decimal.h"
 #include "Rational.h"
 #include "Number.h"
-
+#include "Polynomial.h"
+#include <algorithm>    // std::replace
+#include <vector>
 
 using namespace std;
 
@@ -110,6 +112,7 @@ Term operator+(Term t1, Term t2) {
         t.setExponent(t1.getExponent());
         return t;
     }
+    return t;
 }
 
 Term operator-(Term t1, Term t2) {
@@ -117,8 +120,9 @@ Term operator-(Term t1, Term t2) {
     if (t1.getExponent() == t2.getExponent()) {
         t.setCoefficient(t1.getCoefficient() - t2.getCoefficient());
         t.setExponent(t1.getExponent());
-        return t;
     }
+    return t;
+
 }
 
 Term operator*(Term t1, Term t2) {
@@ -128,6 +132,7 @@ Term operator*(Term t1, Term t2) {
     return t;
 
 }
+
 Term operator/(Term t1, Term t2) {
     Term t;
     t.setCoefficient(t1.getCoefficient() / t2.getCoefficient());
@@ -135,7 +140,25 @@ Term operator/(Term t1, Term t2) {
     return t;
 
 }
-int main() {
+
+Polynomial operator+(Polynomial p1, Polynomial p2) {
+    Polynomial p;
+
+    for (Term it: p1.getPoly()) {
+        for (Term it2: p2.getPoly()) {
+            if (it.getExponent() == it2.getExponent()) {
+                p.add(it + it2);
+                break;
+            }
+        }
+    }
+    p.simplfiy();
+
+    return p;
+}
+
+
+void test() {
     Decimal ll;
     ll.setValue(1 / 3.0);
     cout << ll.getValue() << endl;
@@ -238,4 +261,39 @@ int main() {
     t.print();
     t = t1 / t1;
     t.print();
+}
+
+void Polynomial::simplfiy() {
+    for (auto it = poly.begin(); it != poly.begin(); it++) {
+        for (auto it2 = it + 1; it2 != poly.begin(); it2++) {
+            if ((*it).getExponent() == (*it2).getExponent()) {
+                Term t1 = (*it);
+                Term t2 = (*it2);
+                Term t = t1 + t2;
+                replace(it, poly.end(), t1, t);
+
+            }
+        }
+    }
+}
+
+int main() {
+//    test();
+    Number n1;
+    n1.setValue(2);
+    Number n2;
+    n2.setValue(3);
+    Term t1;
+    t1.setCoefficient(n1);
+    t1.setExponent(n2);
+    Term t2;
+    t2.setCoefficient(n2);
+    t2.setExponent(n2);
+
+    Polynomial p1;
+    p1.add(t1);
+    p1.add(t2);
+    p1.simplfiy();
+    p1.print();
+
 }

@@ -18,7 +18,13 @@ public:
 
     void print();
 
-    bool add(Term t);
+    void add(Term t);
+
+    void simplfiy();
+
+    const vector<Term> &getPoly() const;
+
+    void setPoly(const vector<Term> &poly);
 
     virtual ~Polynomial();
 };

@@ -14,6 +14,12 @@ Decimal.h
 Rational.h
 /cygdrive/g/Github/COMP427/Section4/Rational.h
 
+/cygdrive/g/Github/COMP427/Section4/Polynomial.h
+Term.h
+/cygdrive/g/Github/COMP427/Section4/Term.h
+vector
+-
+
 /cygdrive/g/Github/COMP427/Section4/Rational.h
 
 /cygdrive/g/Github/COMP427/Section4/Term.h
@@ -33,4 +39,10 @@ Rational.h
 /cygdrive/g/Github/COMP427/Section4/Rational.h
 Number.h
 /cygdrive/g/Github/COMP427/Section4/Number.h
+Polynomial.h
+/cygdrive/g/Github/COMP427/Section4/Polynomial.h
+algorithm
+-
+vector
+-
 
