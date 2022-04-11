@@ -1,0 +1,6 @@
+g:/VSCode/COMP427/COMP427/build/CMakeFiles/Rational.dir
+g:/VSCode/COMP427/COMP427/build/CMakeFiles/edit_cache.dir
+g:/VSCode/COMP427/COMP427/build/CMakeFiles/Test.dir
+g:/VSCode/COMP427/COMP427/build/CMakeFiles/rebuild_cache.dir
+g:/VSCode/COMP427/COMP427/build/CMakeFiles/Complex.dir
+g:/VSCode/COMP427/COMP427/build/CMakeFiles/main.dir
